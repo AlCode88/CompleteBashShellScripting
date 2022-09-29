@@ -10,7 +10,7 @@ Example: Lets say you have txt file and you want to search for specific value li
 - You can search for a multiple files as well see the example below
 <br> ![image](../images/6.png)
 
-## Sytax of the `grep` command
+## Syntax of the `grep` command
 <br> ![image](../images/7.png)
 
 - You can use `pipe` for the grep command as well 
