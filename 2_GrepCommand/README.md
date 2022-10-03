@@ -123,3 +123,58 @@ Example:
 8. `?` =====>  The preceding character is optional and will be matched, at most, once
 <br> ![image](../images/38.png)
 
+9. `*` =====> The preceeding character will be matched zero or more times
+<br> ![image](../images/39.png)
+
+10. `+` =====> The preceeding character will be matched one or more tiems
+<br> ![image](../images/40.png)
+
+11. `[xyz] ====> Matches for the lines which are having x or y or z
+<br> ![image](../images/41.png) ===> is the same as in the above
+<br> ![image](../images/42.png)
+
+12. `[a-d]` is equal to `[abcd]` =====> Matched for the lines which are having a/b/c/d
+<br> ![image](../images/43.png)
+
+13. `[a-ds-z]` is equal to `[abcdstuvwxyz]`
+<br> ![image](../images/44.png)
+
+14. `^[abc]` =====> Matches for the lines which are starting with a/b/c 
+<br> ![image](../images/45.png)
+- the below example is, it will exclude thos symbols
+<br> ![image](../images/46.png)
+
+15. `{N}` ====> The preceeding string matched exactly N time
+<br> ![image](../images/47.png)
+
+16. `{N,M}` ====> The preceeding string matched at least N time but not more than M times
+
+#### Other shortcuts
+
+```
+17. `[[:alnum:]]` - Alphanumeric characters
+18. `[[:alpha:]]` - Alphabetic characters
+19. `[[:blank:]]` - Blank characters: space and tab
+20. `[[:digit:]]` - Digits: '0123456789'.
+21. `[[:lower:]]` - Lower case letters
+22. `[[:space:]]` - Space characters: tab, newline, vertical tab, form feed, carriage return, and space
+23. `[[:upper:]]` - Upper-case letters
+```
+<br> ![image](../images/48.png)
+
+# Practice
+1. Write a patter only to match directories
+```
+ls -ltr | grep E '^d'
+```
+<br> ![image](../images/49.png)
+
+2. Write a pattern to match only files
+```
+ls -ltr | grep -E '^-'
+```
+<br> ![image](../images/50.png)
+
+3. Find the server ipv4 info from a file?
+```
+
