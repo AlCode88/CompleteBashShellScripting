@@ -177,4 +177,7 @@ ls -ltr | grep -E '^-'
 
 3. Find the server ipv4 info from a file?
 ```
+cat ipv4.txt | grep -Eo '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}'
+```
+<br> ![image](../images/51.png)
 
