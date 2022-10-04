@@ -54,6 +54,10 @@
  - `cut` ===> command examples. How you can apply both cut and grep command.
    <br> ![image](../images/69.png)
 
+### Documentation for `CUT` command
+<br> ![image](../images/70.png)
+<br> ![image](../images/71.png)
+<br> ![image](../images/72.png)
 
 
 
