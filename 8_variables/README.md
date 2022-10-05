@@ -70,3 +70,5 @@ x=4 or Name=al
     - Name="Shell Scripting"
     - NewName=$Name
     - NewName=${Name}
+<br>Example:
+      <br> ![image](../images/102.png)
