@@ -53,6 +53,11 @@ Examples:
 - Lets say you want to leave "" in the message then you can use `\` as in the example
 ```
 echo "This is \"bash\" scripting"    ======> This is "bash" scripting
+```
+<br> ![image](../images/110.png)
 
+- To displa messages in colors
 
+- This are the color codes you can use with `echo` command
+<br> ![image](../images/111.png)
 
