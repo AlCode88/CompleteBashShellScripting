@@ -60,4 +60,8 @@ echo "This is \"bash\" scripting"    ======> This is "bash" scripting
 
 - This are the color codes you can use with `echo` command
 <br> ![image](../images/111.png)
+NOTE: To reset the command line color use `\033[0m` like in the example
+<br> ![image](../images/112.png)
 
+- `echo -n "message/string/$variable/$(command)"` ===> if you want to append a line
+<br> ![image](../images/113.png)
