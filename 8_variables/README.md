@@ -72,3 +72,32 @@ x=4 or Name=al
     - NewName=${Name}
 <br>Example:
       <br> ![image](../images/102.png)
+
+# Simple Usage of Varaibles in Bash Script
+
+- Taks is Pring Docker Status and Version
+
+1. Before implementing Scripts you need to know commands to check the status and version of Docker
+
+```
+systemctl status docker
+```
+- Then we need to grap running from entire combination of strings
+<br> ![image](../images/103.png)
+```
+systemctl status docker | awk '/Active/ { print $3 }' | tr -d "(" | tr -d ")"
+or
+systemctl status docker | awk '/Active/ { print $3 }' | tr -d "[()]"
+```
+<br> ![image](../images/105.png)
+- To get a docker version you can extract it with the above command
+
+```
+docker -v | awk '/version/ {print $3 }' | tr -d ","
+```
+- Now we are going to writ Simple Bash script
+```
+#!/bin/bash
+# Docker status
+systemctl status docker | aws '/Active/ { print $3 }' | tr -d "[()]"
+# Docker version
