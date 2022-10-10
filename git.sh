@@ -1,9 +1,12 @@
 #!/usr/bin/env bash
 
+message=
+
 git status
 
 git add .
 
-git commit -m "added script"
+read -p 'Enter your commit message: ' COMMIT
+git commit -m "${COMMIT}"
 
 git push
