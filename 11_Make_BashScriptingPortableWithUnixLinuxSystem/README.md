@@ -22,5 +22,4 @@ Path are same
 ```
 
 ### So, we can make our bash shell scripts as portable using:
-
- <br> ![image](../images/124.png)
+<br> ![image](../images/124.png)
