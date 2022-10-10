@@ -12,4 +12,6 @@ git commit -m "${COMMIT}"
 git push
 else
     echo "Nothing to commit, Thanks"
+    sleep 4
+    echo -e "\033[1;32mFinished...."
 fi
