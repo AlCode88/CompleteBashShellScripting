@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-git status
+git status | grep -E 'Your branch is up to date'
 
-grep -E 'Your branch is up to date'
+
 
 #git add .
 
