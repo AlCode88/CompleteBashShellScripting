@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+echo -e "\033[0;33mStartingGitFlow"
 gitBranch=$(git status | grep -Ewo 'Changes not staged')
 
 if [[ $gitBranch == 'Changes not staged' ]]
