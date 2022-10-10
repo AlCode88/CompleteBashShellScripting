@@ -10,6 +10,7 @@ git add .
 read -p 'Enter your commit message without single/double quotes: ' COMMIT
 git commit -m "${COMMIT}"
 git push
+echo -e "\033[1;32mFinished...."
 else
     echo "Nothing to commit, Thanks"
     sleep 4
