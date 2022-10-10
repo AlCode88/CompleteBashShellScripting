@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-gitBranch=$(git status | grep -E "Your branch is up to date")
+gitBranch=$(git status | grep -Ewo 'up to date')
 
-if [[ $gitBranch -eq '0' ]]
+if [[ $gitBranch == 'up to date' ]]
 then
     echo "Nothing to commit it is up to date"
 else
