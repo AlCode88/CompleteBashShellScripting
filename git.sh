@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
-git status | grep -E 'Your branch is up to date'
+gitBranch=git status | grep -E 'Your branch is up to date'
 
-
-
+if [[ $gitBranch == '0' ]]
+then
+    echo "Nothing to commit it is up to date"
+fi
 #git add .
 
 #read -p 'Enter your commit message: ' COMMIT
