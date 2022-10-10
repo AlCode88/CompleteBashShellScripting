@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
-gitBranch=$(git status | grep -Ewo 'up to date')
+gitBranch=$(git status | grep -Ewo 'Changes not staged')
 
-if [[ $gitBranch == 'up to date' ]]
+if [[ $gitBranch == 'Changes not staged' ]]
 then
-    echo "Nothing to commit it is up to date"
-else
 git add .
 read -p 'Enter your commit message: ' COMMIT
 git commit -m "${COMMIT}"
-git push 
+git push
+else
+    echo "Nothing to commit, thanks"
 fi

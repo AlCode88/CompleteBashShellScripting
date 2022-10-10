@@ -48,3 +48,4 @@ NOTE: Syntax Errors stops script execution and run time errors do not stop scrip
 - Or you can define this right in the Shebang part on the top of the script is the same as you execute it in the command line
  <br> ![image](../images/130.png)
  <br> ![image](../images/131.png)
+ <br>
