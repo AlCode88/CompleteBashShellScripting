@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo -e "\033[1;32mStarting Git Flow....."
-sleep 3
+sleep 2
 gitBranch=$(git status | grep -Ewo 'Changes not staged')
 
 if [[ $gitBranch == 'Changes not staged' ]]
@@ -14,6 +14,6 @@ sleep 2
 echo -e "\033[1;32mFinished\nThanks...."
 else
     echo "Nothing to commit, Thanks"
-    sleep 4
+    sleep 2
     echo -e "\033[1;32mFinished...."
 fi
