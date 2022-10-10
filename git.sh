@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo -e "\033[1;32mStartingGitFlow"
+echo -e "\033[1;32mStarting Git Flow....."
 
 gitBranch=$(git status | grep -Ewo 'Changes not staged')
 
@@ -11,5 +11,5 @@ read -p 'Enter your commit message: ' COMMIT
 git commit -m "${COMMIT}"
 git push
 else
-    echo "Nothing to commit, thanks"
+    echo "Nothing to commit, Thanks"
 fi
