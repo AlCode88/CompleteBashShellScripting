@@ -2,9 +2,11 @@
 
 git status
 
-git add .
+grep -E 'Your branch is up to date'
 
-read -p 'Enter your commit message: ' COMMIT
-git commit -m "${COMMIT}"
+#git add .
 
-git push 
+#read -p 'Enter your commit message: ' COMMIT
+#git commit -m "${COMMIT}"
+
+#git push 
