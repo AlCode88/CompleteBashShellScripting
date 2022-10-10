@@ -17,3 +17,5 @@
     <br> ![image](../images/120.png)
     - Or you can comment it with `: '  ' ` symbols
     <br> ![image](../images/121.png)
+
+    - NOTE: In this way we can comment single line or multiple lines 

@@ -11,4 +11,6 @@ then
     echo "Terraform version is correct"
 else
     echo "Please check terraform version"
+else
+    systemctl install terraform -v=0.14.15
 fi
