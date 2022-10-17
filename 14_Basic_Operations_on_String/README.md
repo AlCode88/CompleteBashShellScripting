@@ -1,4 +1,4 @@
-# Basic Operations on Strins
+# Basic Operations on Strings
 - How we can define a string variable
     ```
     x="shell"  /   y="Shell scripting"  /   cmdOut=$(date)
