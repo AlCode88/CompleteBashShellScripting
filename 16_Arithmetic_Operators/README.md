@@ -14,4 +14,6 @@
     5. Using `bc`  (For integer and float numbers)
 
 Example: Using `(())`
+- We have our variables defined as x and y 
+- You can see the following operations in the image below
 <br> ![image](../images/160.png)
