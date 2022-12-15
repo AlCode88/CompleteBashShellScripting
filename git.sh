@@ -15,7 +15,7 @@ printf "\033[1;32mFinished\nThanks...."
 else
     echo "Nothing to commit, Thanks"
     sleep 2
-    echo -e "\033[1;32mFinished...."
+    printf "\033[1;32mFinished...."
 fi
 
 <<comment
