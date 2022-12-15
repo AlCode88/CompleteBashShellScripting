@@ -18,12 +18,16 @@
 <br> ![image](../images/154.png)
 
 - Let see the usecase of `$0` in the example below.
+- In this case `$0` will return script name itself
 <br> ![image](../images/155.png)
+
 - As you can see it is referring to script itself
 <br> ![image](../images/156.png)
 NOTE: This is called also postional agruments
 
 - For two digit default vars you need to take curly braces in order not to opologies. Like in the example below use `{}` for tow digit numbers or at all to can define your default vars in `{}` like in the example below:
+- For example in the below example we have variable 10 and we need to wrap it to curly braces.
+- Even for your single digit command line argument you can take curly braces but it is not required 
 <br> ![image](../images/157.png)
 
 - Use case of `$#` means to define the number of command line arguments
