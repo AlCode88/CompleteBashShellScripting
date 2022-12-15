@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-printf "\033[1;32mStarting Git Flow....."
+printf "\033[1;32mStarting Git Flow.....\n"
 sleep 2
 gitBranch=$(git status | grep -Ewo 'Changes not staged')
 
@@ -11,11 +11,11 @@ read -p 'Enter your commit message without single/double quotes: ' COMMIT
 git commit -m "${COMMIT}"
 git push
 sleep 2
-printf "\033[1;32mFinished\nThanks...."
+printf "\033[1;32mFinished\nThanks....\n"
 else
-    echo "Nothing to commit, Thanks"
+    echo "Nothing to commit, Thanks\n"
     sleep 2
-    printf "\033[1;32mFinished...."
+    printf "\033[1;32mFinished....\n"
 fi
 
 <<comment
