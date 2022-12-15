@@ -30,7 +30,7 @@ NOTE: This is called also postional agruments
 - Even for your single digit command line argument you can take curly braces but it is not required 
 <br> ![image](../images/157.png)
 
-- Use case of `$#` means to define the number of command line arguments
+- Use case of `$#` means to define the number of command line arguments passed to your script
 <br> ![image](../images/158.png)
 
 - Use case for `$*` or `$@` means everything it will pass
