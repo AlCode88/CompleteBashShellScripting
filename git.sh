@@ -7,6 +7,7 @@ then
     exit 1
 fi
 
+
 printf "\033[1;32mStarting Git Flow.....\n"
 sleep 2
 gitBranch=$(git status | grep -Ewo 'Changes not staged')
